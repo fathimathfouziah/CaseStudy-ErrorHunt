@@ -1,5 +1,5 @@
 const mongoose=require('mongoose')//1.node modules were missing
-const url = 'mongodb://localhost:27017/Library'//2.mongoose or bodyparser
+const url = 'mongodb+srv://fouziah:fouziahh@cluster0.w7q6h.mongodb.net/myFirstDatabase?retryWrites=true&w=majority'//2.mongoose or bodyparser
 mongoose.connect(url, { useNewUrlParser: true })
 const con = mongoose.connection
 con.on('open', () => {
