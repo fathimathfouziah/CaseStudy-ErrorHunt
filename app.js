@@ -8,6 +8,7 @@ con.on('open', () => {
 
 const express = require('express'); 
 const bodyParser = require('body-parser');
+var port = process.env.PORT||5000;
 
     console.log("Server Ready on 3000");
 
